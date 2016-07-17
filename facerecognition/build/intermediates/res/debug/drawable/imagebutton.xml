@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <layer-list>
+            <item>
+                <bitmap android:gravity="center" android:src="@drawable/usage" android:tileMode="repeat" />
+            </item>
+            <item>
+                <shape>
+                    <solid android:color="#FFFFFF" />
+                    <corners android:radius="3dp" />
+                    <stroke android:color="#FFFFFF" android:width="1dp" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+    <item android:drawable="@drawable/usage" android:state_pressed="false"/>
+    <item android:drawable="@drawable/usage"></item>
+</selector><!-- From: file:/M:/Android/CIP/cvrecognition/facerecognition/src/main/res/drawable/imagebutton.xml -->

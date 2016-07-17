@@ -1,0 +1,5 @@
+M:\Android\CIP\cvrecognition\facerecognition\build\intermediates\classes\debug
+M:\Android\CIP\cvrecognition\facerecognition\build\intermediates\pre-dexed\debug\classes-1e7c010306db27cfa9e79f5cbe164dd4c83082f7.jar
+M:\Android\CIP\cvrecognition\facerecognition\build\intermediates\pre-dexed\debug\javacpp-be79c119ca5769916ee093be98033203a6bf575f.jar
+M:\Android\CIP\cvrecognition\facerecognition\build\intermediates\pre-dexed\debug\classes-00f4370b0ee9575d1de5de41dfddab1fa150cace.jar
+M:\Android\CIP\cvrecognition\facerecognition\build\intermediates\pre-dexed\debug\javacv-50c8f190c994a1b4ff7182e38df8578ab1455b48.jar

@@ -1,0 +1,136 @@
+<!--
+  ~ Copyright (C) 2014 Siddhanathan Shanmugam <siddhanathan@gmail.com>, Paritosh Gupta <paritosh.gupta@yahoo.co.uk>
+  ~
+  ~ This program is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ This program is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with this program.  If not, see <http://www.gnu.org/licenses/>
+  -->
+
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearLayout">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="198dp"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="160dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="Name:"
+            android:layout_gravity="center_horizontal"
+            android:layout_row="0"
+            android:layout_column="1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="Relation:"
+            android:layout_gravity="center_horizontal"
+            android:layout_row="0"
+            android:layout_column="4"
+            android:layout_marginTop="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="Notes:"
+            android:layout_row="0"
+            android:layout_column="3"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp" />
+
+        <TextView
+            android:id="@+id/noteRead"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" "
+            android:layout_row="0"
+            android:layout_column="3"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:weightSum="1">
+
+        <ImageView
+            android:id="@+id/face"
+            android:layout_width="71dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|top"
+            android:src="@android:drawable/ic_menu_revert"
+            android:layout_row="0"
+            android:layout_column="6"
+            android:layout_weight="0.26" />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="Name-"
+            android:layout_gravity="center_horizontal"
+            android:layout_row="0"
+            android:layout_column="2"
+            android:layout_marginTop="20dp" />
+
+        <TextView
+            android:id="@+id/relation"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="relation here"
+            android:layout_gravity="center_horizontal"
+            android:layout_row="0"
+            android:layout_column="5"
+            android:layout_marginTop="20dp" />
+
+        <TextView
+            android:id="@+id/notesName"
+            android:text="Write Notes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_column="7"
+            android:layout_marginTop="20dp" />
+
+        <EditText
+            android:id="@+id/notes"
+            android:layout_width="190dp"
+            android:layout_height="95dp"
+            android:singleLine="false"
+            android:layout_row="0"
+            android:layout_column="7"
+            android:layout_marginTop="20dp" />
+
+        <Button
+            android:id="@+id/save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="save"
+            android:onClick="writer"
+            android:layout_row="16"
+            android:layout_column="2"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="M:\Android\CIP\cvrecognition\facerecognition\libs\javacpp.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="08f8b1e3fdcc93a1e9076d6279864d6a46982a85">
+        <dex dex="M:\Android\CIP\cvrecognition\facerecognition\build\intermediates\pre-dexed\debug\javacpp-be79c119ca5769916ee093be98033203a6bf575f.jar" />
+    </item>
+    <item
+        jar="M:\Android\CIP\cvrecognition\facerecognition\build\intermediates\exploded-aar\cvrecognition\openCVLibrary249\unspecified\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="063635f15cb57a0df073dd96939e3e45f402d4a6">
+        <dex dex="M:\Android\CIP\cvrecognition\facerecognition\build\intermediates\pre-dexed\debug\classes-00f4370b0ee9575d1de5de41dfddab1fa150cace.jar" />
+    </item>
+    <item
+        jar="M:\Android\CIP\cvrecognition\facerecognition\libs\javacv.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1824ed7a180ee32aa57f5632a489c10aad8f1804">
+        <dex dex="M:\Android\CIP\cvrecognition\facerecognition\build\intermediates\pre-dexed\debug\javacv-50c8f190c994a1b4ff7182e38df8578ab1455b48.jar" />
+    </item>
+    <item
+        jar="M:\Android\CIP\cvrecognition\facerecognition\build\intermediates\exploded-aar\cvrecognition\ecoGallery\unspecified\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="8aab0094b7837f2b4b07f2aa25fd1e67be059946">
+        <dex dex="M:\Android\CIP\cvrecognition\facerecognition\build\intermediates\pre-dexed\debug\classes-1e7c010306db27cfa9e79f5cbe164dd4c83082f7.jar" />
+    </item>
+
+</items>

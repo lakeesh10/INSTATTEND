@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Instattend</string>
+    <string name="BLANK"></string>
+    <string name="STrain">Add Student</string>
+    <string name="SViewAll">View all faces</string>
+    <string name="SSearch">Take Attendance</string>
+    <string name="SDelete">Delete</string>
+    <string name="SEnter">Enter Name, then pres Rec</string>
+    <string name="SStopTrain">Finish</string>
+    <string name="SStopSearch">Finish</string>
+    <string name="Straininig">Training...</string>
+    <string name="SCanntoPredic">More then one face is needed to predict</string>
+    <string name="SIdle">Idle</string>
+    <string name="SFaceName">Name :</string>
+    <string name="SSearching">Searching</string>
+    <string name="SFrontCamera">Front Camera</string>
+    <string name="SBackCamera">Back Camera</string>
+</resources>
